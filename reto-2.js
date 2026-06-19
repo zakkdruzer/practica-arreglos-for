@@ -22,3 +22,5 @@ console.log("Después de irse el último:", fila);
 // 5) La persona del medio (índice 1) abandona
 fila.splice(1, 1);
 console.log("Fila final:", fila);
+
+console.log("");
