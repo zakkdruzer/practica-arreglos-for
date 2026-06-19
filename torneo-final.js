@@ -24,11 +24,11 @@ console.log("Puntaje máximo:", maximo);
 
 // Paso 5: Arma una lista con los puntajes que superan el promedio
 let sobreElPromedio = puntajes.filter((p) => p > promedio);
-console.log("Sobre el promedio:", sobreElPromedio);
+console.log('Sobre el promedio: [ "' + sobreElPromedio.join('", "') + '" ]');
 
 // Paso 6: Muestra el ranking de puntajes ordenados de mayor a menor
 let ranking = puntajes.sort((a, b) => b - a);
-console.log("Ranking:", ranking);
+console.log('Ranking: [ "' + ranking.join('", "') + '" ]');
 
 // Paso 7: Bonus - muestra el nombre del ganador (el del puntaje máximo)
 let indiceGanador = puntajes.indexOf(maximo);

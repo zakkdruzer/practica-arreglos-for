@@ -7,7 +7,7 @@ let puntajes = [10, 25, 40, 55];
 let dobles = puntajes.map((p) => p * 2);
 
 // 2) Muestra el nuevo y el original
-console.log("Dobles:", dobles);
-console.log("Original:", puntajes);
+console.log('Dobles: [ "' + dobles.join('", "') + '" ]');
+console.log('Original: [ "' + puntajes.join('", "') + '" ]');
 
 console.log("");
