@@ -1,4 +1,4 @@
-console.log("%cReto 1 · El inventario del explorador", "font-weight: bold; font-color: green; font-size: 15px;");
+console.log("%cReto 1 · El inventario del explorador", "font-weight: bold; color: green; font-size: 15px;");
 console.log("")
 
 let mochila = ["cuerda", "linterna", "mapa", "brújula"];
@@ -15,3 +15,5 @@ console.log("Total:", mochila.length);
 // 4) Cambia "mapa" por "GPS" y muestra la mochila
 mochila[2] = "GPS";
 console.log('Mochila: [ "' + mochila.join('", "') + '" ]');
+
+console.log("")
