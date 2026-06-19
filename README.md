@@ -49,4 +49,5 @@ La pantalla principal usa Bootstrap junto con estilos personalizados para mostra
 - Uso combinado de arreglos paralelos, `sort()` y `filter()` en el reto final.
 
 **Puedes ver el resultado en:**
+
 https://zakkdruzer.github.io/practica-arreglos-for/
